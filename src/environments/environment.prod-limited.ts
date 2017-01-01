@@ -3,14 +3,11 @@ import { Component2Component } from '../app/component2/component2.component';
 import { Component3Component } from '../app/component3/component3.component';
 
 export const environment = {
-  production: false,
+  production: true,
   routes: [
     {
       path: 'component1',
       component: Component1Component
-    }, {
-      path: 'component2',
-      component: Component2Component
     }, {
       path: 'component3',
       component: Component3Component
